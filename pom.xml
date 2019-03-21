@@ -12,6 +12,7 @@
 	<artifactId>springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -85,6 +86,21 @@
 			<artifactId>druid-spring-boot-starter</artifactId>
 			<version>1.1.10</version>
 		</dependency>
+
+		<!--整合fastjson-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.47</version>
+		</dependency>
+
+		<!--打包配置-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 
 		<!--逆向工程所需要的依赖-->
 		<dependency>
